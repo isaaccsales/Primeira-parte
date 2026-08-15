@@ -1,0 +1,230 @@
+/*Fonte Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Fundo escuro usando #0A1214 e #2F3B40 */
+    background-color: #0A1214; 
+    background-image: radial-gradient(circle at top, #2F3B40 0%, #0A1214 60%);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px 10px;
+}
+
+header h1 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6C644E; /* Nova cor de destaque */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+nav a {
+    color: #a0aab0; /* Tom acinzentado suave para combinar com o fundo */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #6C644E; /* Nova cor de destaque ao passar o mouse */
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.Persona1 {
+    max-width: 800px;
+    width: 100%;
+}
+
+.Persona1 p {
+    color: #a0aab0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Persona1 h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    
+    /* Gradiente atualizado com a nova paleta de cores */
+    background: linear-gradient(90deg, #ffffff, #6C644E, #2F3B40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.Persona1 button {
+    /* Fundo transparente com leve tom da cor destaque */
+    background-color: rgba(108, 100, 78, 0.05); 
+    border: 1px solid #2F3B40; /* Borda com a cor intermediária */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Persona1 button:hover {
+    background-color: rgba(108, 100, 78, 0.15);
+    border-color: #6C644E;
+}
+
+.Persona1 button a {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #6C644E; /* Nova cor de destaque */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Login {
+    background-color: #2F3B40; /* Caixa de login usando a cor intermediária */
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    width: 90%; 
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.Login h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#loginforma {
+    display: flex;
+    flex-direction: column;
+}
+
+#loginforma label {
+    font-size: 11px;
+    color: #a0aab0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#loginforma input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #0A1214; /* Linha de baixo mais escura */
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#loginforma input:focus {
+    border-bottom-color: #6C644E; /* Linha acende com a cor destaque */
+}
+
+#loginforma button {
+    /* Gradiente no botão de login usando as duas cores da paleta */
+    background: linear-gradient(90deg, #6C644E, #2F3B40);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: opacity 0.3s;
+}
+
+#loginforma button:hover {
+    opacity: 0.9;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 15px;
+    color: #ff4c4c;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 15px 10px;
+    }
+    
+    header h1 {
+        font-size: 22px;
+    }
+    
+    .Persona1 h2 {
+        font-size: 36px; 
+        margin-bottom: 30px;
+    }
+    
+    main {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        gap: 20px; 
+    }
+    
+    nav a {
+        font-size: 13px;
+    }
+    
+    .Persona1 p {
+        font-size: 14px; 
+    }
+    
+    .Persona1 h2 {
+        font-size: 28px; 
+    }
+    
+    .Login {
+        padding: 30px 20px;
+    }
+    
+    .Persona1 button a {
+        padding: 12px 20px;
+    }
+}
