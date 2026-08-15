@@ -9,7 +9,7 @@
 }
 
 body {
-    /* Fundo escuro usando #0A1214 e #2F3B40 */
+    
     background-color: #0A1214; 
     background-image: radial-gradient(circle at top, #2F3B40 0%, #0A1214 60%);
     color: #ffffff;
@@ -30,7 +30,7 @@ header h1 {
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6C644E; /* Nova cor de destaque */
+    color: #6C644E; 
 }
 
 nav {
@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-    color: #a0aab0; /* Tom acinzentado suave para combinar com o fundo */
+    color: #a0aab0; 
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #6C644E; /* Nova cor de destaque ao passar o mouse */
+    color: #6C644E; 
 }
 
 main {
@@ -77,7 +77,7 @@ main {
     font-weight: 800;
     margin-bottom: 40px;
     
-    /* Gradiente atualizado com a nova paleta de cores */
+    
     background: linear-gradient(90deg, #ffffff, #6C644E, #2F3B40);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -86,9 +86,9 @@ main {
 }
 
 .Persona1 button {
-    /* Fundo transparente com leve tom da cor destaque */
+    
     background-color: rgba(108, 100, 78, 0.05); 
-    border: 1px solid #2F3B40; /* Borda com a cor intermediária */
+    border: 1px solid #2F3B40; 
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -102,14 +102,14 @@ main {
 .Persona1 button a {
     display: inline-block;
     padding: 12px 30px;
-    color: #6C644E; /* Nova cor de destaque */
+    color: #6C644E; 
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
 }
 
 .Login {
-    background-color: #2F3B40; /* Caixa de login usando a cor intermediária */
+    background-color: #2F3B40; 
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.5);
@@ -146,7 +146,7 @@ main {
 #loginforma input {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #0A1214; /* Linha de baixo mais escura */
+    border-bottom: 1px solid #0A1214; 
     color: #fff;
     font-size: 16px;
     padding: 8px 0;
@@ -156,11 +156,11 @@ main {
 }
 
 #loginforma input:focus {
-    border-bottom-color: #6C644E; /* Linha acende com a cor destaque */
+    border-bottom-color: #6C644E; 
 }
 
 #loginforma button {
-    /* Gradiente no botão de login usando as duas cores da paleta */
+   
     background: linear-gradient(90deg, #6C644E, #2F3B40);
     color: #fff;
     border: none;
